@@ -12,7 +12,7 @@
     "react-dropzone": "^15.0.0",
     "react-router-dom": "^7.13.0",
     "react-scripts": "5.0.1",
-    "styled-components": "^6.3.9",
+    "styled-components": "^6.3.10",
     "typescript": "~5.9.3"
   },
   "scripts": {
@@ -43,8 +43,8 @@
     "@types/react-dom": "^19.2.3",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.36",
-    "@typescript-eslint/eslint-plugin": "^8.55.0",
-    "@typescript-eslint/parser": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
     "axios-mock-adapter": "^2.1.0",
     "eslint": "^10.0.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -60,10 +60,12 @@
     "ts-jest": "^29.4.6"
   },
   "pnpm": {
-  "overrides": {
-    "nth-check": "^2.0.1",
-    "postcss": "^8.4.31",
-    "webpack-dev-server": "^5.0.4"
+    "overrides": {
+      "nth-check": "^2.0.1",
+      "postcss": "^8.4.31",
+      "webpack-dev-server": "^5.0.4",
+      "ajv": "^8.17.1",
+      "ajv-keywords": "^5.1.0"
+    }
   }
-}
 }
